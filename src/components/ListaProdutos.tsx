@@ -22,7 +22,7 @@ export default function ListaProdutos({ produtos }: ListaProdutosProps) {
           <img src={produto.image} alt={produto.title} />
           <h3>{produto.title}</h3>
           <p className="categoria">{produto.category}</p>
-          <p className="preco">💰 R$ {produto.price.toFixed(2)}</p>
+          <p className="preco"> R$ {produto.price.toFixed(2)}</p>
         </div>
       ))}
     </div>
